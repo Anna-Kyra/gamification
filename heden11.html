@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>De waterwolf</title>
+    <meta name="keywords" content="oefening, HTML, school">
+    <meta name="description" content="oefening in HTML">
+    <meta name="author" content="Anna-Kyra Strik">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://use.typekit.net/kof7uiz.css">-->
+    <link rel="stylesheet" href="https://use.typekit.net/rjs3nxm.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+
+    <style>
+        .background {
+            animation-name: background_titelscherm;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            animation-delay: 3s;
+            opacity: 0;
+        }
+
+        @keyframes background_titelscherm {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .tik p {
+            animation-delay: 3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content_home">
+            <div class="background">
+            </div>
+            <div class="click_anywhere" onclick='window.location.href="hoofdstuk2.html"'>
+                <div class="titel titel_scherm">
+                    <h2>De</h2>
+                    <h1> Waterwolf</h1>
+                </div>
+                <div class="tik">
+                    <p>Klik om door te gaan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body></html>

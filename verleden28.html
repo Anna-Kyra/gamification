@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>De waterwolf</title>
+    <meta name="keywords" content="oefening, HTML, school">
+    <meta name="description" content="oefening in HTML">
+    <meta name="author" content="Anna-Kyra Strik">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://use.typekit.net/kof7uiz.css">-->
+    <link rel="stylesheet" href="https://use.typekit.net/rjs3nxm.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+
+    <style>
+        .licht_flikker {
+            background-image: url(images/verleden/Licht.png);
+            background-size: 100%;
+            width: 375px;
+            height: 812px;
+            position: absolute;
+            top: 0;
+            animation-name: licht;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes licht {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            75% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content_verleden_spel">
+            <div class="home_verleden">
+                <img src="images/verleden/rondjes/home_oud.svg" alt="home">
+            </div>
+            <div class="kleding_icon kleding_icon_def">
+                <img src="images/verleden/rondjes/kleding_rondje.svg" alt="home">
+            </div>
+            <div class="tijdsbalk">
+                <div class="tijdsplaat">
+                    <p>5 mei 1840</p>
+                </div>
+                <img src="images/verleden/voorwerpen/tijdshorloge.png" alt="home">
+                <div class="tijdsbalk_wit">
+                    <div class="tijdsbalk_rood"></div>
+                </div>
+                <img src="images/verleden/voorwerpen/tijdshorloge_voorkant.png" alt="home" class="voorkant_tijds">
+            </div>
+            <div class="let">
+                <div class="overlay hidden">
+                    <div class="spraak_verleden let_op_verleden">
+                        <div class="naamkaart_verleden_let_op">
+                            <p>Let op!</p>
+                        </div>
+                        <div class="spraakveld_verleden tekst">
+                            <p>Je raakt al je vorderingen in het spel kwijt als je terug gaat naar het hoofdmenu. </p>
+                        </div>
+
+                        <div class="knoppen_verleden">
+                            <button name="button" type="button" onclick="location.href='index.html'">Terug naar Menu</button>
+                            <button name="button" type="button" class="groen">Annuleren</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--kleding-->
+            <div class="content_kleding hidden2">
+                <div class="background">
+                </div>
+                <div class="hoofdstuk_naam">
+                    <div class="naamkaart_verleden_jij">
+                        <p>Kleding inventaris</p>
+                    </div>
+                </div>
+                <div class="kruisje kruisje_kleding_def">
+                    <img src="images/verleden/rondjes/Goudrondje%203.png" alt="terug">
+                </div>
+                <div class="donker">
+                    <div class="rondjes_kleding">
+                        <div class="rondjes_shirt">
+                            <img src="images/verleden/voorwerpen/Kleding.png" alt="terug" class="button_kleding">
+                        </div>
+                        <br>
+                        <div class="rondjes_schoen">
+                            <img src="images/verleden/voorwerpen/Klompen%201.png" alt="terug" class="schoen_button">
+                        </div>
+                    </div>
+                    <div class="karakter">
+                        <img src="images/verleden/kleding/Verleden.png" alt="terug" class="verleden">
+                    </div>
+                </div>
+                <div class="inventaris">
+                    <div class="naamkaart_verleden_jij">
+                        <p>Inventaris</p>
+                    </div>
+                    <div class="donker2">
+                        <div class="rondjes kleding_button">
+                        </div>
+                        <div class="rondjes klomp_button">
+                        </div>
+                        <div class="rondjes"></div>
+                        <div class="rondjes"></div>
+                        <div class="rondjes"></div>
+                        <div class="rondjes"></div>
+                        <div class="rondjes"></div>
+                        <div class="rondjes"></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="click_anywhere" onclick='window.location.href="verleden27.html"'>
+                <div class="background">
+                </div>
+
+                <div class="pijlen">
+
+                    <img src="images/verleden/silverpijl.svg" alt="terug" class="pijl_links">
+
+
+                    <img src="images/verleden/silverpijl.svg" alt="terug" class="pijl_rechts">
+
+                </div>
+
+                <div class="licht_flikker">
+                </div>
+
+                <div class="inventaris_enzo">
+                    <div class="dik_spraak_hoofd">
+                        <p>Het is onmogelijk om je handen te gebruiken om te graven. Gebruik de schep die je hebt gevonden. </p>
+                    </div>
+                    <div class="tik tik_spraak_bubble">
+                        <p>Klik om door te gaan</p>
+                    </div>
+                    <img src="images/verleden/personages/dik_trom/Dik_trom_gezicht_open.png" alt="terug" class="pijl_links">
+
+                    <div class="inventaris_klein">
+                        <div class="inventaris_pijlrondje">
+                            <div class="rondje_inventaris">
+
+                            </div>
+                            <div class="rondje_inventaris"></div>
+                            <div class="rondje_inventaris schep_inventaris">
+                                <img src="images/verleden/zoekspel/Inschuur_schep.png" alt="terug" class="schep_inventaris">
+                            </div>
+                            <div class="pijl_inventaris opacity0_5"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body></html>

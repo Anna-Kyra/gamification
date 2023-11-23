@@ -1,0 +1,1473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF1DB;
+}
+
+.click_anywhere {
+    width: 375px;
+    height: 812px;
+    position: absolute;
+}
+
+.content_home {
+    width: 375px;
+    height: 812px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(images/heden/achtergronden/background_groen_hand-02.svg);
+    overflow: hidden;
+}
+
+.content_verleden_spel {
+    width: 375px;
+    height: 812px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(images/verleden/achtergronden/graven4.jpg);
+    overflow: hidden;
+}
+
+.titel {
+    margin-top: 50px;
+    padding-top: 65px;
+    width: 375px;
+    height: 270px;
+    background-image: url(images/verleden/spreekvelden/oudpapier_helft.jpg);
+    background-size: 340px;
+    background-repeat: repeat-x;
+
+    color: #4f3e28;
+    font-size: 35px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+}
+
+.knoppen {
+    margin: 40px;
+}
+
+.knoppen button {
+    margin: 7px;
+    width: 170px;
+    height: 70px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: 0px;
+    background-image: url(images/verleden/silverknop.png);
+    background-size: 170px;
+
+    color: #5D5D5D;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.knoppen .transparent {
+    opacity: 0.5;
+    cursor: auto;
+}
+
+.transparent {
+    opacity: 0.5;
+    cursor: auto;
+}
+
+
+
+
+/*hoofdstuk1*/
+
+.hoofdstuk1 {
+    position: absolute;
+    width: 375px;
+    height: 245px;
+    transform: translate(0, 300px);
+    padding: 10px;
+    z-index: 1;
+}
+
+.hoofdstuk1 .spraakveld_heden {
+    height: 90px;
+}
+
+
+
+/*heden*/
+.content_heden {
+    width: 375px;
+    height: 812px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(images/heden/achtergronden/heden_achtergrond1.jpg);
+    overflow: hidden;
+}
+
+.tik_heden {
+    position: relative;
+    text-align: right;
+    margin: 10px;
+
+}
+
+.tik_heden p {
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: bebas-neue-rounded, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    border-color: #2f3437;
+    background-color: #69ACE5;
+    border-radius: 25px;
+    text-align: right;
+    float: right;
+    animation-name: tik;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    opacity: 0;
+}
+
+.spraak_heden {
+    position: absolute;
+    width: 375px;
+    height: 245px;
+    transform: translate(0, 500px);
+    padding: 10px;
+}
+
+.spraak_heden_jij {
+    position: absolute;
+    text-align: right;
+    width: 375px;
+    height: 245px;
+    transform: translate(0, 500px);
+    padding: 10px;
+}
+
+.naamkaart_heden {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    width: 118px;
+    height: 44px;
+    /*background-color: brown;*/
+    margin: 0 20px;
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+    font-family: bebas-neue-rounded, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-image: linear-gradient(to right, #EBC441, #E58B6C);
+    border-radius: 25px;
+    box-shadow: 0px 3px 3px rgba(228, 140, 108, 0.32);
+}
+
+.naamkaart_heden_jij {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    width: 118px;
+    height: 44px;
+    /*background-color: brown;*/
+    margin: 0 20px;
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+    font-family: bebas-neue-rounded, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+
+    background-image: linear-gradient(to right, #FF84FA, #967AD8);
+    border-radius: 25px;
+    box-shadow: 0px 3px 3px rgba(150, 122, 216, 0.28);
+    z-index: 100;
+}
+
+.spraakveld_heden {
+    position: relative;
+    text-align: left;
+    background-color: transparent;
+    border-radius: 25px;
+    margin: -25px 0;
+    margin-bottom: 0;
+    width: 355px;
+    height: 141px;
+    font-family: korolev-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #666;
+    font-size: 17px;
+
+}
+
+.spraakveld_heden {
+    background-color: #fff;
+
+}
+
+.spraakveld_heden p {
+    padding: 35px 20px;
+}
+
+.rondleider img {
+    height: 190px;
+    margin-top: -40px;
+}
+
+.home {
+    position: absolute;
+    text-align: center;
+    height: 60px;
+    margin: 15px;
+    width: 60px;
+    background-color: #69ace5;
+    border-radius: 50%;
+    display: block;
+    transition-duration: 1s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.home img {
+    height: 50px;
+    margin: 5px 0 0 0;
+    padding: 10px;
+    border: 0px;
+}
+
+.button_heden {
+    text-align: center;
+}
+
+.button_heden button {
+    border: 0px;
+    border-radius: 25px;
+    width: 145px;
+    height: 55px;
+    margin: 15px;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: bebas-neue-rounded, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    background-color: #D77DED;
+    box-shadow: 0px 8px 0px #8065C3;
+    cursor: pointer;
+}
+
+/*schoen*/
+
+.spraak_heden_schoen {
+    text-align: center;
+    width: 375px;
+    height: 245px;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.spraak_heden_schoen .spraakveld_heden {
+    text-align: center;
+    font-size: 28px;
+}
+
+.schoen img {
+    height: 548.4px;
+    margin: 15px 0 0 51px;
+}
+
+.schoen2 img {
+    height: 548.4px;
+    margin: 15px 0 0 39px;
+}
+
+.hand img {
+    height: 500px;
+    margin-top: 900px;
+    transform: scale(1.3);
+    animation-name: hand;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes hand {
+    0% {
+        margin-top: 900px;
+        transform: scale(1.3);
+    }
+
+    100% {
+        margin-top: 400px;
+        transform: scale(1);
+    }
+}
+
+.hand2 img {
+    height: 500px;
+    width: 300px;
+    margin-top: 400px;
+    animation-duration: 1s;
+    animation-name: hand2;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes hand2 {
+    0% {
+        width: 300px;
+        height: 500px;
+        margin-top: 400px;
+    }
+
+    100% {
+        width: 100px;
+        height: 550px;
+        margin-top: 300px;
+        transform: rotate(-5deg);
+    }
+}
+
+.schoen3 img {
+    animation-name: schoen3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes schoen3 {
+    0% {
+        margin-top: 15px;
+    }
+
+    100% {
+        margin-top: 700px;
+    }
+}
+
+.titel_scherm {
+    margin-top: 190px;
+    margin-bottom: 180px;
+    padding-top: 120px;
+    background-size: cover;
+    height: 400px;
+
+}
+
+/*verleden*/
+.home_verleden {
+    position: absolute;
+    text-align: left;
+    height: 50px;
+    margin: 15px;
+    width: 70px;
+    border-radius: 50%;
+    display: block;
+    transition-duration: 1s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.kleding_icon {
+    position: absolute;
+    text-align: left;
+    height: 50px;
+    margin: 15px;
+    margin-top: 100px;
+    width: 70px;
+    border-radius: 50%;
+    display: block;
+    transition-duration: 1s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.pijl {
+    position: absolute;
+    text-align: left;
+    height: 50px;
+    margin: 80px;
+    margin-top: 140px;
+    width: 70px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+    animation-name: pijl;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: rotate(30deg);
+}
+
+@keyframes pijl {
+    0% {
+        transform: rotate(30deg);
+        margin-top: 180px;
+    }
+
+    50% {
+        transform: rotate(-30deg);
+        margin-top: 140px;
+    }
+
+    100% {
+        transform: rotate(30deg);
+        margin-top: 180px;
+
+    }
+}
+
+
+.knoppen_verleden button {
+    width: 150px;
+    height: 70px;
+    padding-bottom: 10px;
+    margin: 12px;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0;
+    background-image: url(images/verleden/silverknop.png);
+    background-size: 100% 100%;
+
+    color: #5D5D5D;
+    font-size: 17px;
+    background-repeat: no-repeat;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.let_op_verleden {
+    position: absolute;
+    margin-top: -200px;
+}
+
+.naamkaart_verleden_let_op {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    width: 150px;
+    height: 55px;
+    /*background-color: brown;*/
+    margin: 0 20px;
+    padding: 17px;
+    background-image: url(images/verleden/spreekvelden/roodnaamkaartje.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #55200d;
+    font-size: 20px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.let_op .spraakveld_verleden p {
+    padding-right: 20px;
+}
+
+.content_verleden {
+    width: 375px;
+    height: 812px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(images/verleden/achtergronden/verleden_achtergrond1.jpg);
+    overflow: hidden;
+}
+
+.background {
+    background-image: url(images/verleden/noise.png);
+    background-size: 800px;
+    width: 375px;
+    height: 812px;
+    position: absolute;
+    opacity: 0.7;
+    z-index: 90;
+    pointer-events: none;
+    -webkit-pointer-events: none;
+    z-index: 9999;
+}
+
+.spraak_verleden {
+    position: absolute;
+    width: 375px;
+    height: 245px;
+    transform: translate(0, 500px);
+    padding: 10px;
+}
+
+
+.naamkaart_verleden {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    width: 150px;
+    height: 55px;
+    /*background-color: brown;*/
+    margin: 0 20px;
+    padding: 17px;
+    background-image: url(images/verleden/spreekvelden/goudnaamkaartje.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #a0854b;
+    color: #887140;
+    font-size: 20px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.spraakveld_verleden {
+    position: relative;
+    text-align: left;
+    background-image: url(images/verleden/spreekvelden/oudpapier.png);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    margin: -30px 0;
+    margin-bottom: 0;
+    padding: 40px 30px;
+    width: 355px;
+    height: 165px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4f3e28;
+    font-size: 20px;
+}
+
+#welcomeText {
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4f3e28;
+    font-size: 20px;
+}
+
+.spraak_verleden_jij {
+    position: absolute;
+    width: 375px;
+    height: 245px;
+    transform: translate(0, 500px);
+    padding: 10px;
+    text-align: right;
+}
+
+
+
+.naamkaart_verleden_jij {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    width: 150px;
+    height: 55px;
+    /*background-color: brown;*/
+    margin: 0 20px;
+    padding: 17px;
+    background-image: url(images/verleden/spreekvelden/silvernaamkaartje.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #666;
+    font-size: 20px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+}
+
+.tik {
+    position: relative;
+    text-align: right;
+    margin: 10px;
+
+}
+
+.tik p {
+    padding: 5px 10px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e7cd85;
+    border-color: #2f3437;
+    background-color: #fcedd2;
+    background-color: #74674a;
+    border-radius: 25px;
+    text-align: right;
+    float: right;
+    border-style: double;
+    border-color: #2f3437;
+    border: 2px;
+    animation-name: tik;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    opacity: 0;
+}
+
+@keyframes tik {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.personage {
+    position: absolute;
+    transform: translate(0, 380px);
+    margin: 0 10px;
+
+}
+
+.dik_trom img {
+    height: 170px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.hidden2 {
+    visibility: hidden;
+    position: absolute;
+}
+
+.stukken {
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    overflow: hidden;
+}
+
+.stukken_in {
+    position: relative;
+    background-image: url(images/verleden/achtergronden/stukken.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    animation-name: stukken;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-delay: 0.4s;
+}
+
+@keyframes stukken {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(2.5);
+    }
+}
+
+
+.putbaas img {
+    height: 220px;
+    margin-top: -80px;
+    margin-left: -30px;
+}
+
+/*beloning*/
+.beloning {
+    width: 265px;
+}
+
+.beloning_achtergrond {
+    margin-top: 200px;
+    margin-bottom: 0;
+    padding-top: 30px;
+    background-size: cover;
+    height: 300px;
+}
+
+.spraak_verleden_beloning {
+    position: absolute;
+    width: 375px;
+    height: 245px;
+    transform: translate(0, 165px);
+    padding: 10px;
+}
+
+.beloning_ding1 {
+    animation-name: beloning_ding1;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes beloning_ding1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.pop_up {
+    animation-name: popup1;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1.3s;
+}
+
+@keyframes popup1 {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1.5) rotate(20deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.pop_up2 {
+    animation-name: popup1;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+    animation-fill-mode: forwards;
+}
+
+/*hoofdstukken*/
+.hoofdstuk_naam {
+    float: left;
+    margin: 20px;
+    margin-left: -5px;
+}
+
+.hoofdstuk_naam .naamkaart_verleden_jij {
+    background-size: 100% 100%;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    padding: 14px;
+}
+
+.kruisje {
+    float: right;
+    margin: 20px;
+
+}
+
+.kruisje img {
+
+    width: 60px;
+
+}
+
+.hoofdstukken_dingen {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    padding-left: 10px;
+    width: 100%;
+    height: 85%;
+
+    position: relative;
+
+}
+
+.hoofdstukrondje {
+    margin-left: 11px;
+    width: 30%;
+    height: 24%;
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.hoofdstukrondje .naamkaart_verleden_jij {
+    background-size: 100% 100%;
+    width: 100px;
+    height: 31px;
+    font-size: 13px;
+    padding: 6px;
+    position: relative;
+    margin: 0;
+    margin-top: -5px;
+}
+
+.hoofdstukken_dingen .rondje {
+    background-image: url(images/verleden/rondjes/goudrondje_man.svg);
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+}
+
+.rondje img {
+    width: 100px;
+    margin: -20px;
+}
+
+.rondje .dik {
+    margin: -5px;
+    margin-left: -15px;
+}
+
+.rondje .put {
+    width: 126px;
+    margin: -12px;
+    margin-left: -5px;
+}
+
+.opacity1 {
+    opacity: 1;
+    z-index: 10;
+}
+
+.nieuw {
+    width: 116px;
+    height: 60px;
+    opacity: 1;
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    margin: 20px;
+    margin-right: 16px;
+    background-image: url(images/verleden/spreekvelden/oudpapier.png);
+    background-size: 100% 100%;
+
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4f3e28;
+    font-size: 14px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.nieuw2 {
+    width: 116px;
+    height: 60px;
+    opacity: 1;
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    margin: 20px;
+    margin-top: 190px;
+    margin-left: 16px;
+    background-image: url(images/verleden/spreekvelden/oudpapier.png);
+    background-size: 100% 100%;
+
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4f3e28;
+    font-size: 14px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+
+/*kleding*/
+.content_kleding {
+    background-image: url(images/verleden/achtergronden/oudpapier_heel.jpg);
+    background-size: 101%;
+    background-position: center;
+    width: 375px;
+    height: 812px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 9999;
+
+}
+
+.hoofdstuk_naam .naamkaart_verleden_jij {
+    width: 200px;
+    background-size: 100% 100%;
+}
+
+
+.donker {
+    margin-top: 100px;
+    padding: 4px 0;
+    background-image: url(images/verleden/spreekvelden/oudpapier_helft_donker.jpg);
+    background-size: 100% 100%;
+    height: 330px;
+    margin-bottom: 40px;
+
+}
+
+.donker .rondjes_kleding {
+    float: left;
+    background-color: #ca9c5d;
+    height: 100%;
+    width: 122px;
+    position: relative;
+    padding: 50px 0;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.donker .rondjes_kleding .rondjes_shirt {
+    width: 83px;
+    height: 83px;
+    margin: 10px;
+    background-image: url(images/verleden/rondjes/kleding_rondje.svg);
+    background-size: 100% 100%;
+
+}
+
+.rondjes_shirt img {
+    width: 83px;
+    height: 83px;
+}
+
+.donker .rondjes_kleding .rondjes_schoen {
+    width: 83px;
+    height: 83px;
+    margin: 10px;
+    margin-top: 0;
+    background-image: url(images/verleden/rondjes/schoen_rondje.svg);
+    background-size: 100% 100%;
+}
+
+.rondjes_schoen img {
+    width: 83px;
+    height: 83px;
+}
+
+.donker .karakter {
+    float: left;
+    width: calc(100% - 122px);
+    height: 100%;
+    padding-top: 20px;
+}
+
+.donker .karakter img {
+    height: 294px;
+    margin: 0;
+}
+
+.donker2 {
+    margin-top: -30px;
+    padding: 4px 0;
+    background-image: url(images/verleden/spreekvelden/oudpapier_helft_donker.jpg);
+    background-size: cover;
+    height: 280px;
+    margin-bottom: 40px;
+    padding: 7px;
+    padding-top: 50px;
+
+}
+
+.background {
+    position: absolute;
+}
+
+.opacity0_5 {
+    opacity: 0.5;
+}
+
+.donker2 .rondjes {
+    width: 70px;
+    height: 69px;
+    float: left;
+    margin: 10px;
+    background-image: url(images/verleden/rondjes/goudrondje.svg);
+    background-size: cover;
+}
+
+.donker2 .rondjes img {
+    width: 70px;
+}
+
+.pop_up2 {
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+/*tijdsbalk*/
+
+.tijdsbalk {
+    position: absolute;
+    text-align: left;
+    width: 270px;
+    height: 812px;
+    margin: 0 auto;
+    margin-left: 105px;
+    padding-top: 20px;
+}
+
+.tijdsbalk img {
+    position: relative;
+    width: 87px;
+    margin: 0 auto;
+    text-align: left;
+    transform: rotate(45deg);
+}
+
+.tijdsbalk .voorkant_tijds {
+    margin-left: -91px;
+}
+
+.tijdsbalk_wit {
+    position: absolute;
+    width: 270px;
+    height: 17px;
+    background-color: #FFECCF;
+    top: 0;
+    margin-top: 40px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: #2E3437 2px solid;
+    border-right: 0px;
+}
+
+.tijdsbalk_rood {
+    height: 100%;
+    width: 170px;
+    background-color: #C14925;
+    border-radius: 12px;
+    border-right: #2E3437 2px solid;
+}
+
+.tijdsplaat {
+    width: 90px;
+    height: 31px;
+    position: absolute;
+    top: 0;
+    margin-top: 14px;
+    text-align: center;
+    margin-left: 45%;
+    background-image: url(images/verleden/spreekvelden/goudnaamkaartje.png);
+    background-size: 100%;
+
+    padding: 7px;
+    font-size: 12px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #887140;
+}
+
+/*het spel*/
+.pijlen {
+    width: 375px;
+    margin-top: calc(300px);
+    padding: 20px;
+}
+
+.pijlen img {
+    width: 55px;
+
+}
+
+.pijl_links {
+    float: left;
+}
+
+.pijl_rechts {
+    float: right;
+    transform: rotate(180deg)
+}
+
+.inventaris_enzo {
+    position: absolute;
+    width: 375px;
+    height: calc(812px - 500px);
+    overflow: hidden;
+    top: 0;
+    margin-top: 500px;
+}
+
+.inventaris_enzo img {
+    width: 85px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.inventaris_klein {
+    margin: 10px;
+    margin-bottom: 0;
+    width: 261px;
+    height: 125px;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    background-image: url(images/verleden/spreekvelden/oudpapier.png);
+    background-size: 100% 100%;
+    transform: rotate(180deg);
+}
+
+.inventaris_pijlrondje {
+    position: relative;
+    top: 45px;
+    left: 55px;
+}
+
+.rondje_inventaris {
+    width: 55px;
+    height: 55px;
+    float: left;
+    position: relative;
+    margin: 0 5px;
+    background-image: url(images/verleden/rondjes/goudrondje.svg);
+    background-size: 100% 100%;
+    transform: rotate(180deg);
+}
+
+.pijl_inventaris {
+    height: 55px;
+    width: 33.02px;
+    float: right;
+    position: absolute;
+    left: -40px;
+    background-image: url(images/verleden/silverpijl.svg);
+    background-size: 100% 100%;
+}
+
+.dik_spraak_hoofd {
+    width: calc(375px - 20px);
+    height: 199px;
+    background-image: url(images/verleden/spreekvelden/Spraakwolk.png);
+    background-size: 100% 100%;
+    margin: 10px;
+
+    padding: 30px;
+    padding-top: 20px;
+    text-align: left;
+    color: #4f3e28;
+    font-size: 20px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tik_spraak_bubble {
+    z-index: 1;
+    margin-top: -35px;
+    transform: scale(0.9);
+}
+
+.herberg {
+    width: 375px;
+    height: 300px;
+    position: absolute;
+    margin-top: -50px;
+    position: absolute;
+    transform: translate(0, 340px);
+}
+
+.herberg_click {
+    width: 209px;
+    height: 260px;
+    background-color: transparent;
+    margin-left: 45px;
+    float: left;
+}
+
+.herberg_sign {
+    font-size: 20px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    margin-top: 150px;
+    margin-left: 20px;
+    transform: rotate(36deg);
+    position: relative;
+    float: left;
+    color: #292E2F;
+}
+
+/*zoekspel*/
+.zoekspel_intro .spraak_verleden {
+    transform: translate(0, 300px);
+}
+
+.zoekspel_intro .personage {
+    transform: translate(0, 180px);
+}
+
+
+.spel {
+    position: absolute;
+    overflow: hidden;
+    width: 375px;
+    height: 812px;
+}
+
+.briefje {
+    width: 375px;
+    height: 250px;
+    background-color: aqua;
+    position: absolute;
+    bottom: -80px;
+    background-image: url(images/verleden/spreekvelden/oudpapier_helft.jpg);
+    background-size: 100%;
+    text-align: left;
+    padding: 25px;
+    padding-top: 30px;
+    font-size: 23px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4f3e28;
+}
+
+.briefje p {
+    margin-bottom: 10px;
+}
+
+.links {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.rechts {
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-left: 43px;
+}
+
+.streep_rood {
+    text-decoration: line-through;
+    text-decoration-color: #B24B2C;
+}
+
+.kruiwagen {
+    bottom: 10px;
+    position: absolute;
+    width: 405px;
+    height: 327px;
+    background-image: url(images/verleden/zoekspel/Inschuur_kruiwagen.png);
+    background-size: 100%;
+}
+
+.pet {
+    position: absolute;
+    width: 85px;
+    height: 101px;
+    background-image: url(images/verleden/zoekspel/inschuur_pet.svg);
+    background-size: 100%;
+    transform: translate(45px, 220px);
+}
+
+.mattenklopper {
+    position: absolute;
+    width: 119px;
+    height: 218px;
+    background-image: url(images/verleden/zoekspel/Inschuur_mattenklopper.png);
+    background-size: 100%;
+    transform: translate(50px, 380px);
+}
+
+.paardentrip {
+    position: absolute;
+    width: 131px;
+    height: 110px;
+    background-image: url(images/verleden/zoekspel/Paardentrip.png);
+    background-size: 100%;
+    transform: translate(50px, 570px);
+}
+
+.klompen {
+    position: absolute;
+    width: 130px;
+    height: 100px;
+    background-image: url(images/verleden/zoekspel/Inschuur_klompen.png);
+    background-size: 100%;
+    transform: translate(190px, 540px);
+}
+
+.schep {
+    position: absolute;
+    width: 139px;
+    height: 294px;
+    background-image: url(images/verleden/zoekspel/Inschuur_schep.png);
+    background-size: 100%;
+    transform: translate(250px, 290px);
+}
+
+.fun_fact {
+    width: 100%;
+    height: 222px;
+    position: absolute;
+    background-color: aquamarine;
+    top: -100px;
+    padding-top: 100px;
+    background-image: url(images/verleden/spreekvelden/oudpapier_helft.jpg);
+    background-size: 100% 100%;
+    font-size: 20px;
+    font-family: ltc-pabst-oldstyle, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4f3e28;
+}
+
+.fun_fact p {
+    margin: 20px;
+    text-align: left;
+}
+
+.face img {
+    width: 85px;
+    margin: 20px;
+}
+
+.beloning_spel {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    background-image: url(images/verleden/rondjes/goudrondje.svg);
+    background-size: 100% 100%;
+    margin-top: -40px;
+    position: relative;
+
+}
+
+.beloning_spel img {
+    margin-top: -5px;
+    width: 60px;
+    transform: rotate(16deg);
+}
+
+.schep_inventaris img {
+    width: 40px;
+    top: -30px;
+}
+
+.licht_flikker {
+    background-image: url(images/verleden/Licht.png);
+    background-size: 100%;
+    width: 375px;
+    height: 812px;
+    position: absolute;
+    top: 0;
+    animation-name: licht;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes licht {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.silver_rondje {
+    width: 55px;
+    height: 55px;
+    float: left;
+    position: relative;
+    margin: 0 5px;
+    background-image: url(images/verleden/rondjes/silverrondje.svg);
+    background-size: 100% 100%;
+    transform: rotate(180deg);
+}
+
+/*home knop*/
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 375px;
+    height: 812px;
+    z-index: 1;
+}
+
+.let .overlay {
+    position: absolute;
+    z-index: 100;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.let_op {
+    margin-top: -200px;
+    position: absolute;
+}
+
+.let_op .naamkaart_heden {
+    background-image: linear-gradient(to right, #EB8F41, #E3341D);
+}
+
+.spraakveld_heden_let_op {
+    height: 100px;
+}
+
+.let_op button {
+    border: 0px;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+    font-size: 23px;
+    font-family: bebas-neue-rounded, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    background-color: #eb8f41;
+    box-shadow: 0px 8px 0px #E35920;
+    cursor: pointer;
+}
+
+.let_op .groen {
+    background-color: #70C680;
+    box-shadow: 0px 8px 0px #35833E;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>De waterwolf</title>
+    <meta name="keywords" content="oefening, HTML, school">
+    <meta name="description" content="oefening in HTML">
+    <meta name="author" content="Anna-Kyra Strik">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://use.typekit.net/kof7uiz.css">-->
+    <link rel="stylesheet" href="https://use.typekit.net/rjs3nxm.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+
+    <style>
+        .pop_up {
+            animation-name: popup1;
+            animation-duration: 0.6s;
+            animation-timing-function: ease-in-out;
+            opacity: 1;
+            animation-fill-mode: forwards;
+            animation-delay: 1.3s;
+        }
+        
+        .pop_up3 {
+            animation-name: popup1;
+            animation-duration: 0.6s;
+            animation-timing-function: ease-in-out;
+            opacity: 1;
+            animation-fill-mode: backwards;
+            animation-delay: 0s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content_verleden">
+            <div class="home_verleden">
+                <img src="images/verleden/rondjes/home_oud.svg" alt="home">
+            </div>
+            <div class="let">
+                <div class="overlay hidden">
+                    <div class="spraak_verleden let_op_verleden">
+                        <div class="naamkaart_verleden_let_op">
+                            <p>Let op!</p>
+                        </div>
+                        <div class="spraakveld_verleden tekst">
+                            <p>Je raakt al je vorderingen in het spel kwijt als je terug gaat naar het hoofdmenu. </p>
+                        </div>
+
+                        <div class="knoppen_verleden">
+                            <button name="button" type="button" onclick="location.href='index.html'">Terug naar Menu</button>
+                            <button name="button" type="button" class="groen">Annuleren</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="personage putbaas">
+                <img src="images/verleden/personages/Putbaas_boos.png" alt="Dik Trom">
+            </div>
+            <div class="spraak_verleden">
+                <div class="naamkaart_verleden">
+                    <!--<img src="images/goudnaamkaartje.png" alt="gehaktbal">-->
+                    <p>Putbaas</p>
+                </div>
+                <div class="spraakveld_verleden tekst">
+                    <p>Hier heb je wat werkkleren met klompen. Doe deze aan in je kleding inventaris. </p>
+                    <!--<img src="images/oudpapier.png" alt="gehaktbal">-->
+                </div>
+
+            </div>
+            <div class="background">
+            </div>
+            <div class="overlay beloning_ding1">
+                <div class="spraak_verleden_beloning">
+                    <div class="naamkaart_verleden_jij">
+                        <!--<img src="images/goudnaamkaartje.png" alt="gehaktbal">-->
+                        <p class="geen_hidden">Werkkleding</p>
+                        <p class="jup hidden2">Klompen</p>
+
+                    </div>
+                </div>
+                <div class="titel titel_scherm beloning_achtergrond">
+                    <img class="beloning pop_up geen_hidden" src="images/verleden/voorwerpen/Kleding.png" alt="Dik Trom">
+                    <img class="beloning jup jup_pop hidden2" src="images/verleden/voorwerpen/Klompen%201.png" alt="Dik Trom">
+                </div>
+
+
+                <div class="tik">
+                    <p>Klik om door te gaan</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body></html>
